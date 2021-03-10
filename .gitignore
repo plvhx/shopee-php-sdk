@@ -3,6 +3,6 @@ composer.lock
 phive.xml
 phpunit.xml.dist.bak
 test.php
-./coverage
-./vendor
-./tools
+coverage/
+vendor/
+tools/
