@@ -1,0 +1,1 @@
+{"batch_result":{"successes":[],"failures":[{"error_code":"error_param","id":100936359,"description":"Can only boost item which is in NORMAL status and has stock."}]},"request_id":"08c6d9f56d97e0866c0327d04658173c"}

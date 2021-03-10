@@ -1,0 +1,1 @@
+PHP SDK for Shopee REST API service.

@@ -1,0 +1,44 @@
+{
+	"name": "gandung/shopee-php-sdk",
+	"type": "library",
+	"description": "PHP SDK for Shopee API.",
+	"license": "BSD-3-Clause",
+	"keywords": [
+		"shopee",
+		"shopee-api",
+		"shopee-php",
+		"shopee-sdk",
+		"shopee-api-php",
+		"shopee-api-sdk",
+		"shopee-php-api",
+		"shopee-php-sdk",
+		"shopee-sdk-api",
+		"shopee-sdk-php"
+	],
+	"config": {
+		"sort-packages": true
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "1.0-dev"
+		}
+	},
+	"autoload": {
+		"psr-4": {
+			"Gandung\\Shopee\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Gandung\\Shopee\\Tests\\": "tests/"
+		}
+	},
+	"require": {
+		"php": "^7.2",
+		"guzzlehttp/guzzle": "^7.2",
+		"psr/http-client": "^1.0"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^9.5"
+	}
+}
